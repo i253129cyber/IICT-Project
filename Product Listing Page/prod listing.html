@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pawfect Mart — Products</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Page CSS -->
+  <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+  <!-- SITE HEADER  -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="paw">
+          <img style="width: 40px;height: 40px;" src="logo.png" alt="">
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">Pawfect Mart</div>
+          <div class="brand-sub">Pet Supplies & Accessories</div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Products</a>
+        <a href="#">Contact Us</a>
+      </nav>
+
+      <div class="header-tools">
+        <button class="icon-btn">
+          <img style="width: 30px;height: 30px;" src="man.png" alt="">
+        </button>
+        <button class="icon-btn">
+          <img style="width: 30px;height: 30px;" src="cart.png" alt="">
+        </button>
+        <button class="icon-btn">
+          <img style="width: 30px;height: 30px;" src="heart.png" alt="">
+        </button>
+        <button class="finder">Pet Match Finder</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE CONTENT -->
+  <div class="page-wrap">
+
+    <!-- Left: Filters -->
+    <aside class="filters">
+      <h4>Categories</h4>
+      <ul class="category-list">
+        <li><a href="#">Fussy Cat</a></li>
+        <li><a href="#">Whiskas</a></li>
+        <li><a href="#">Royal Canin</a></li>
+      </ul>
+
+      <hr>
+
+      <h4>Pet</h4>
+      <label><input type="checkbox" name="pet" /> Cat</label>
+      <label><input type="checkbox" name="pet" /> Dog</label>
+      <label><input type="checkbox" name="pet" /> Other</label>
+
+      <hr>
+
+      <h4>Age</h4>
+      <label><input type="radio" name="age" /> 2</label>
+      <label><input type="radio" name="age" /> 4</label>
+
+      <hr>
+
+      <h4>Shop By Price</h4>
+      <label><input type="checkbox" /> PKR-/-100</label>
+      <label><input type="checkbox" /> PKR-/-1000</label>
+      <label><input type="checkbox" /> PKR-/-2000</label>
+      <label><input type="checkbox" /> Over PKR-/-4000</label>
+
+    </aside>
+
+    <!-- Right: Products grid -->
+    <main class="products-main">
+      <div class="products-head">
+        <h2>All Products</h2>
+        <div class="sort-controls">
+          <label>Sort by:
+            <select>
+              <option>Popular</option>
+              <option>Monthly top Products</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <section class="product-grid">
+        <!-- Product card (repeat for each product) -->
+        <!-- Using the screenshot as placeholder image: /mnt/data/Product listing.png -->
+
+        <article class="product-card">
+          <img class="prod-img" src="fussy cat.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">FUSSY CAT 2.5 kg</h3>
+            <div class="prod-meta">
+              <span class="prod-type">dry Food</span>
+              <span class="prod-price">PKR/-2000</span>
+            </div>
+
+            <div class="rating" aria-hidden="true">
+              ★★★★☆
+            </div>
+
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="11.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">WISHES 3 KG</h3>
+            <div class="prod-meta">
+              <span class="prod-type">dry Food 1.5+</span>
+              <span class="prod-price">PKR/-5000</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="2.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">WISHES WET FOOD</h3>
+            <div class="prod-meta">
+              <span class="prod-type">12 PACKS</span>
+              <span class="prod-price">PKR/-3000</span>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <!-- More sample cards -->
+        <article class="product-card">
+          <img class="prod-img" src="3.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">ROYAL CANIN</h3>
+            <div class="prod-meta"><span>kitten wet food</span><span class="prod-price">PKR/-2000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="4.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">ROYAL CANIN 300g</h3>
+            <div class="prod-meta"><span>tin can</span><span class="prod-price">PKR/-600</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="5.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">ROYAL CANIN chicken pieces</h3>
+            <div class="prod-meta"><span>tin can 1+ age</span><span class="prod-price">PKR/-1000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <!-- And a few more product rows (repeat same structure) -->
+        <article class="product-card">
+          <img class="prod-img" src="6.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">Jet box For Cats and Dogs</h3>
+            <div class="prod-meta"><span>metal boxes</span><span class="prod-price">PKR/-4000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="7.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">WITH BELL</h3>
+            <div class="prod-meta"><span>for dogs</span><span class="prod-price">PKR/-300</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="8.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">DOG RUBBER BONES</h3>
+            <div class="prod-meta"><span>dog toy</span><span class="prod-price">PKR/-500</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <!-- last row -->
+        <article class="product-card">
+          <img class="prod-img" src="9.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">PUPPY PAW 3 KG</h3>
+            <div class="prod-meta"><span>Dog Food</span><span class="prod-price">PKR/-6000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="10.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">NUTRI PAWS 3 KG</h3>
+            <div class="prod-meta"><span>Dog Food</span><span class="prod-price">PKR/-4000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="prod-img" src="12.png" alt="product">
+          <div class="prod-body">
+            <h3 class="prod-title">NORTH PAW 1.2 KG</h3>
+            <div class="prod-meta"><span>PUPPIES FOOD</span><span class="prod-price">PKR/-3000</span></div>
+            <div class="rating">★★★★☆</div>
+            <button class="btn-add">Add to Card</button>
+          </div>
+        </article>
+
+      </section> <!-- /product-grid -->
+
+    </main> <!-- /products-main -->
+
+  </div> <!-- /.page-wrap -->
+
+  <!-- FOOTER (standalone) -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img style="width: 70px;height: 70px;" src="logo.png" alt="">
+      </div>
+
+      <div class="footer-col">
+        <h4>Featured</h4>
+        <ul><li>Tug ropes</li><li>Rubber bone</li><li>Whiskas Food</li><li>Royal Kanin</li></ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Cats</h4>
+        <ul><li>Food Items</li><li>Cats Toys</li><li>Cages</li><li>Cat Shoes</li></ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Dogs</h4>
+        <ul><li>Dog Food Items</li><li>Dog Toys</li><li>Dog Cages</li><li>Dog Hats</li></ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>All Pet Toys</h4>
+        <ul><li>Rope Toy</li><li>Frisbee</li><li>Squeaky toy</li><li>Hanging toy ball</li></ul>
+      </div>
+    </div>
+
+ 
+
+
+
+  </footer>
+
+
+      <!-- FOOTER -->
+<footer class="footer">
+    
+    <div class="footer-left">
+      
+        <button class="social-icon">
+        <div class="social-icon">
+          <img style="width: 30px;height: 30px;" src="insta.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img style="width: 30px;height: 30px;" src="faceboo.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img style="width: 30px;height: 30px;" src="twee.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms of Sale</a>
+        <a href="#">FAQs</a>
+        <a href="#">Pawfect Privacy Policy</a>
+    </div>
+
+</footer>
+</body>
+</html>
