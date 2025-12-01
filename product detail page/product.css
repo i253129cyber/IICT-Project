@@ -46,17 +46,52 @@ body{
   align-items: center;
   padding: 12px 18px;
 }
-.brand { display:flex; align-items:center; gap:12px; }
-.paw {  margin-left: 0%; background:#ffffff;  display:grid; place-items:center; border-radius:8px; font-size:20px; }
-.brand-title { font-weight:800; }
-.brand-sub { font-size:12px;  }
+.brand { 
+    
+display:flex;
+ align-items:center; 
+ gap:12px;
+ }
+
+.paw {
+margin-left: 0%;
+background:#ffffff;
+display:grid;
+place-items:center;
+border-radius:8px;
+font-size:20px;
+ }
+
+.brand-title {
+font-weight:800; 
+}
+.brand-sub {
+ font-size:12px; 
+}
 
 /* nav */
-.main-nav { margin-left: 100px; display:flex; gap:20px; align-items:center; flex:2; }
-.main-nav a { text-decoration:none; color:black; padding:8px 10px; border-radius:20px; font-weight:800; }
+.main-nav { 
+margin-left: 100px; 
+display:flex;
+ gap:20px; 
+ align-items:center;
+  flex:2;
+ }
+.main-nav a {
+    
+text-decoration:none;
+color:black;
+padding:8px 10px; 
+border-radius:20px;
+font-weight:800; 
+}
 
 /* right tools */
-.header-tools { display:flex; gap:10px; align-items:center; }
+.header-tools {
+ display:flex;
+  gap:10px; 
+  align-items:center;
+ }
 .icon-btn {  background:transparent; border:0px solid #e6e6e6; border-radius:8px; padding:8px; cursor:pointer; }
 
 .finder { background:var(--accent); border:0; padding:10px 14px; border-radius:20px; font-weight:700; cursor:pointer; }
