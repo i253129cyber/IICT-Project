@@ -4,6 +4,7 @@
   
     <title>Cart Page</title>
     <link rel="stylesheet" href="cart.css">
+    <script src="cart.js"></script>
 </head>
 <body>
 
@@ -67,7 +68,8 @@
 
             <div class="price-box">
                 <p class="price">PKR-/300</p>
-                <span class="delete">🗑️</span>
+
+                <span onclick="ClickHere()" class="delete">🗑️</span>
             </div>
         </div>
 
@@ -90,7 +92,7 @@
 
             <div class="price-box">
                 <p class="price">PKR-/6000</p>
-                <span class="delete">🗑️</span>
+                <span onclick="ClickHere()" class="delete">🗑️</span>
             </div>
         </div>
 
@@ -113,7 +115,7 @@
 
             <div class="price-box">
                 <p class="price">PKR-/3000</p>
-                <span class="delete">🗑️</span>
+                <span onclick="ClickHere()" class="delete">🗑️</span>
             </div>
         </div>
 
@@ -131,7 +133,7 @@
 
         <div class="row total"><strong>Total</strong><strong>PKR-/10400</strong></div>
 
-        <button class="btn teal">Proceed to Checkout</button>
+        <button onclick="Click()"  class="btn teal">Proceed to Checkout</button>
         <button class="btn green">Continue Shopping</button>
         <button class="btn grey">Save for Later</button>
     </div>
